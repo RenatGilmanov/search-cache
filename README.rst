@@ -1,7 +1,7 @@
 ============================
-Alumi SearchCache 
+Search Cache 
 ============================
-Alumi SearchCache is a specialize cache implementation, designed to properly handle 
+SearchCache is a specialize cache implementation, designed to properly handle 
 search specific data. Generally speaking, there are two critical requirements,
 addressed by this implementation:
 
