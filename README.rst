@@ -24,7 +24,7 @@ Both, SearchCache and Guava cache were initialized with the same initial capacit
 expireAfterWrite eviction strategies::
 
             searchCache = SearchCache.newBuilder()
-                    .initialCapacity(100)
+                    .initialCapacity(1000)
                     .expireAfterAccess(200) // ms is used by default
                     .expireAfterWrite(600)
                     .build();
